@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Segunda regla */
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #369595;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 99, 118);
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f5ebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    color: white;
+    text-align: center;
+    background-color: rgb(138, 113, 45);
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+nav{
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    background-color: blueviolet;
+    color: white
+}
+#Contenido {
+    width:69%;
+    height:600px;
+    background-color: darkorange;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#Contenido h2{
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.uno{
+    background-color:darkcyan;
+    margin: 10px;
+  }
+  .dos{
+    background-color: rgb(226, 31, 167);
+    margin: 10px;
+  }
+
+  aside{
+    width: 30%;
+    height: 600px;
+    background-color: darkkhaki;
+    float: right;
+    margin-top: -600px;
+    margin-left: 30%;
+  }
+
+  aside h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+  }
+  .clearfix{
+    clear:both;
+  }
+
+  footer{
+    background-color: royalblue;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-top: 2px solid rgb(255, 255, 255); 
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Media Query para dispositivos moviles */
+  @media screen and (min-widthe: 320px) and (max-width:720px){
+    .container{
+        width: 95%;
+        height: 100%;
+        margin: opx auto;
+        border-radius: 10px;
+        border: 1px solid  rgb(192, 99, 118);
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #f5ebeb;
+    }
+
+    header{
+        color: white;
+        text-align: center;
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+        line-height: 40px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height:  100px;
+    }
+    /* Quinta regla para la navegacion o menu o nav */
+    nav{
+        font-size: 20px;
+        text-align: center;
+        line-height: 60px;
+        background-color: blueviolet;
+        color: white
+    }
+    #Contenido{
+        width: 100%;
+        height: 100%;
+        background-color: darkorange;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #Contenido h2{
+        font-size: 15px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+    }
+    .uno{
+        background-color:darkcyan;
+        margin: 10px;
+      }
+    .dos{
+        background-color: rgb(226, 31, 167);
+        margin: 10px;
+      }
+      aside{
+        width: 30%;
+        height: 500px;
+        background-color: darkkhaki;
+        float: right;
+        margin-top: 20px;
+      }
+    
+      aside h2{
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        color: white;
+      }
+      
+     
+
+  }
+   /* Media Query para dispositivos moviles */
+   @media screen and (max-width:1024px) {
+    .container{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 99, 118);
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f5ebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+    #Contenido h2{
+        font-size: 15px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+    }
+    .uno{
+        background-color:darkcyan;
+        margin: 10px;
+      }
+      .dos{
+        background-color: rgb(226, 31, 167);
+        margin: 10px;
+      }
+    
+      aside{
+        width: 30%;
+        height: 600px;
+        background-color: darkkhaki;
+        float: right;
+        margin-top: -600px;
+        margin-left: 30%;
+      }
+    
+      aside h2{
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        color: white;
+      }
+
+  }
